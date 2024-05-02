@@ -4,7 +4,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.container {
+
+h1 {
+    text-align: center;
+    color: white;
     max-width: 600px;
     margin: 0 auto;
     padding: 15px;
@@ -14,7 +17,7 @@ body {
     border-radius: 5px;
 }
 
-h1 {
+h3 {
     text-align: center;
     color: white;
 }
@@ -22,6 +25,13 @@ h1 {
 p {
     text-align: center;
     color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgb(128, 91, 35);
+    opacity: 0.8;
+    box-shadow: 0 0 5px rgba(134, 127, 127, 0.2);
+    border-radius: 5px;
 }
 
 button {

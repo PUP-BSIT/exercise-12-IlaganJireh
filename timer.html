@@ -1,18 +1,35 @@
 <!DOCTYPE html>
+
 <html>
-<head>
-    <link rel="stylesheet" href="timer.css">
-    <title>Timer</title>
-</head>
-<body>
-    <div class="container">
-    <h1>Timer</h1>
-    <button id="startbutton">Start</button>
-    <button id="pausebutton">Pause</button>
-    <button id="resumebutton">Resume</button>
-    <button id="stopbutton">Stop</button>
-    <p>Timer: <span id="timerdisplay">0</span> seconds</p>
-    </div>
+  <title>Timer</title>
+
+  <head>
+    <h1><em>Timer</em></h1>
+    <link rel="stylesheet" href="timer.css" />
+  </head>
+
+  <body>
+    <h3>Seconds passed:</h3>
+
+    <p id="counter">0</p>
+
+    <button 
+      id="start" 
+      onclick="startCounter()">Start
+    </button>
+    <button 
+      id="pause" 
+      onclick="pauseCounter()">Pause
+    </button>
+    <button
+      id="resume" 
+      onclick="resumeCounter()">Resume
+    </button>
+    <button 
+      id="stop" 
+      onclick="stopCounter()">Stop
+    </button>
+
     <script src="timer.js"></script>
-</body>
+  </body>
 </html>
