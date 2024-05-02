@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background-color: #9ee96c;
+    font-family: Arial, sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgb(128, 91, 35);
+    opacity: 0.8;
+    box-shadow: 0 0 5px rgba(134, 127, 127, 0.2);
+    border-radius: 5px;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: center;
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgb(128, 91, 35);
+    opacity: 0.8;
+    box-shadow: 0 0 5px rgba(134, 127, 127, 0.2);
+    border-radius: 5px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
